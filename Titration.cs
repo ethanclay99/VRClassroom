@@ -6,14 +6,14 @@ public class Titration : MonoBehaviour
 {
     bool colorChange;
     bool isPouring;
-    const double FlowRate=0.5;
-    const double InitialBuretVolume=50.0;
-    const double InitialFlaskVolume=250.0;
-    double molarityBuret;
-    double molarityFlask;
-    double volumeBuret;
-    double volumeFlask;
-    double molesOfBase;
+    const float FlowRate=0.5;
+    const float InitialBuretVolume=50.0;
+    const float InitialFlaskVolume=250.0;
+    float molarityBuret;
+    float molarityFlask;
+    float volumeBuret;
+    float volumeFlask;
+    float molesOfBase;
     void Start(molarityBuret,volumeBuret){
         this.molarityBuret=molarityBuret;
         this.volumeBuret=volumeBuret;
