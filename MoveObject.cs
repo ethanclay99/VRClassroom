@@ -31,8 +31,7 @@ public class MoveObject : MonoBehaviour
         }
 
         if (transform.position == targetPos.position)
-        {
-            
+        {   
             isActive = false;
             forwards = !forwards;
         }
